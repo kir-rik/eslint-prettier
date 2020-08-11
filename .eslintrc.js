@@ -11,5 +11,13 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'no-var': 'error',
+    'max-len': [
+      'error',
+      {
+        code: 50,
+        ignoreUrls: true
+      }
+    ]
   }
 }
