@@ -2,14 +2,12 @@ module.exports = {
   plugins: ['prettier'],
   env: {
     browser: true,
-    es2020: true
+    es2020: true,
   },
-  extends: [
-    'standard'
-  ],
+  extends: ['standard'],
   parserOptions: {
     ecmaVersion: 11,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   rules: {
     'no-var': 'error',
@@ -17,8 +15,8 @@ module.exports = {
       'error',
       {
         code: 50,
-        ignoreUrls: true
-      }
-    ]
-  }
+        ignoreUrls: true,
+      },
+    ],
+  },
 }
