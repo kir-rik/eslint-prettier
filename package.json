@@ -4,12 +4,15 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint src --ext .js,"
+    "lint": "eslint src --ext .js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kir-rik/eslint-prettier.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.6.0"
+  }
 }
