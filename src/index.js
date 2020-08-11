@@ -1,7 +1,9 @@
-var varIsBad = 1;
+var varIsBad = 1
 
-const underscore_case_is_bad = '1'
+const underscoreCaseIsBad = '1'
 
-let constantsArePreferable = null;
+const constantsArePreferable = null
+
+console.log(varIsBad, underscoreCaseIsBad, constantsArePreferable)
 
 // do npx eslint --init
